@@ -1,4 +1,4 @@
-# traceV-vertexproxy — High-Performance Reverse Proxy & Layer 7 Load Balancer 🌐
+# Reverseproxy — High-Performance Reverse Proxy & Layer 7 Load Balancer 🌐
 
 A robust, low-overhead Layer 7 Reverse Proxy, Orchestration Engine, and Dynamic Load Balancer engineered from scratch using Node.js, Express 5.x, and native networking abstractions. Designed to operate as a high-concurrency gateway, the system securely routes client traffic, enforces transaction rate-limiting, handles graceful fallbacks, and executes pre-deployment validation simulation loops while keeping upstream destination layers entirely anonymous.
 
