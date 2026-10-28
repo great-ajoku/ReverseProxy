@@ -6,8 +6,8 @@ const net = require('net');
 const app = express();
 app.set('trust proxy', true);
 
-const SERVER_B = process.env.SERVER_MAIN_1 || 'http://localhost:5000'; 
-const SERVER_C = process.env.SERVER_MAIN_2 || 'http://localhost:3000'; 
+const SERVER_B = process.env.SERVER_MAIN_1 || 'http://localhost:5000'; // application server 1
+const SERVER_C = process.env.SERVER_MAIN_2 || 'http://localhost:3000'; // application server 2
 const targets = [SERVER_B, SERVER_C];
 
 let serverStatus = {[SERVER_B]: true, [SERVER_C]: true};
